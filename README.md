@@ -14,3 +14,6 @@ TagExtract extracts tags from advertisements, which are images or videos, tries 
 - Backend: NodeJS, ExpressJS
 - Database: PostgreSQL
 - Machine Learning: PyTorch, HuggingFace
+
+## Images 
+![screenshot](images/TagExtract1.png)
