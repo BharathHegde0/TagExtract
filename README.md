@@ -33,4 +33,6 @@ This is a console.log() statement of all the demographics that are generated as 
 - Models used for Video tag generation: ViViT, Florence 2 (Dense Caption Region) applied on relevant frames of the video.
 - Model used for Demographic generation: Phi-4-mini-instruct
 
-
+## Architecture:
+The architecture consists of a web view written in React, which communicates with an API written in NodeJS. Metadata of the file is stored in tables using PostgreSQL, and the files themselves are stored in a file system. The ML Models which are used are stored locally on the server and are used in separate Python files, which are invoked by the API when a certain event occurs. Output is then sent to the database which the web view fetches. 
+![screenshot](images/TagExtractArchitecture.png)
