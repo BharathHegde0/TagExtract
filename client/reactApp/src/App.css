@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+    font-family: Rubik, sans-serif;
+    color: #2e2e2e;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 10px 20px;
+    padding: 20px;
+    align-content: start;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* justify-items: center; */
+}
+/* .main-container {
+    display: flex;
+    column-gap:100px;
+
+} */
+
+.table__header {
+    padding: 0px 10px;
+}
+
+.choose-approach {
+    padding: 0 20px;
+}
+
+.choose-approach > select {
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.choose-approach > select:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,79 @@
+/* ------------------ */
+
+.table-header {
+    background-color: #fff;
+}
+
+.table__body {
+    width: 95%;
+    max-height: 84vh;
+    background-color: #fffb;
+
+    margin: 0 0.8rem 0.8rem 0.8rem auto;
+    border-radius: 0.6rem;
+    overflow: auto;
+    overflow: overlay;
+    border: 1px solid #2e2e2e;
+    padding: 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.table__body::-webkit-scrollbar {
+    width: 0.25rem;
+    height: 0.25rem;
+}
+
+.table__body::-webkit-scrollbar-thumb {
+    border-radius: 0.5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+
+.table__body:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+
+table {
+    width: 100%;
+    /* padding: 10px; */
+    border-spacing: 0;
+}
+
+th,
+td {
+    /* border-collapse: collapse; */
+    padding: 1rem;
+    text-align: left;
+}
+
+td {
+    border-bottom: rgba(17, 17, 17, 0.1) 1px solid;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+
+    text-transform: capitalize;
+    border-bottom: 1px rgba(17, 17, 17, 0.4) solid;
+
+    text-align: center;
+}
+
+@keyframes fadeInRow {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-top {
+    animation: fadeInRow 0.35s ease-in-out;
+}
