@@ -15,5 +15,22 @@ TagExtract extracts tags from advertisements, which are images or videos, tries 
 - Database: PostgreSQL
 - Machine Learning: PyTorch, HuggingFace
 
-## Images 
+## Images:
+This is the upload page. Drag and drop or click on the uploads section to insert a file.
 ![screenshot](images/TagExtract1.png)
+
+This is the Modal that opens up when you click "View More".
+![screenshot](images/TagExtract2.png)
+
+This is the modal with the Tags and Demographics generated.
+![screenshot](images/TagExtract3.png)
+
+This is a console.log() statement of all the demographics that are generated as an array, which is the output of the model running in phillm.py
+![screenshot](images/TagExtract4.png)
+
+## Models Used:
+Models used for Image tag generation: ViT, Florence 2 (Dense Caption Region)
+Models used for Video tag generation: ViViT, Florence 2 (Dense Caption Region) applied on relevant frames of the video.
+Model used for Demographic generation: Phi-4-mini-instruct
+
+
