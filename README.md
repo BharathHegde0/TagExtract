@@ -29,8 +29,8 @@ This is a console.log() statement of all the demographics that are generated as 
 ![screenshot](images/TagExtract4.png)
 
 ## Models Used:
--Models used for Image tag generation: ViT, Florence 2 (Dense Caption Region)
--Models used for Video tag generation: ViViT, Florence 2 (Dense Caption Region) applied on relevant frames of the video.
--Model used for Demographic generation: Phi-4-mini-instruct
+- Models used for Image tag generation: ViT, Florence 2 (Dense Caption Region)
+- Models used for Video tag generation: ViViT, Florence 2 (Dense Caption Region) applied on relevant frames of the video.
+- Model used for Demographic generation: Phi-4-mini-instruct
 
 
